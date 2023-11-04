@@ -1,0 +1,64 @@
+body{
+    background-color: antiquewhite;
+    background-image: url(getty_626660256_2000108620009280158_388846.jpg);
+    width: 100%;
+		height: 300px;
+		background-size: cover;
+		background-repeat: no-repeat;
+    
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family: b titr;
+    text-shadow: 5px 5px 5px rgb(176, 207, 52);
+}
+#Matn{
+    font-family: b jadid;
+    font-size: 25px;
+}
+#asli{
+    font-size: 25px;
+    font-family: b jadid;
+}
+#asli2{
+    color: rgb(133, 87, 17);
+    display:inline-block ;
+}
+#asli2>ul>a>li:hover{
+    background-color: #8edafac4;
+}
+#asli2>ul>a>li{
+
+    color: rgb(30, 155, 116);
+}
+#asli2>ul>a{
+    text-decoration: none;
+}
+#navar:hover{
+    background-color: rgb(20, 172, 232);
+    border-radius: 30px;
+}
+#vasat{
+    display: block;
+    height: 142px;
+}
+#navar>ul{
+    text-align: center;
+}
+#navar>ul>li{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+#navar>ul>li>a{
+    font-size: 30px;
+    font-family: b elham;
+    text-decoration: none;
+    background-color: rgb(122, 173, 27);
+    border-radius: 20px;
+    padding: 10px;
+}
+#navar>ul>li>a:hover{
+    background-color: rgb(255, 0, 144);
+}

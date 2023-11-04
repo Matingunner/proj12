@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+#Titr{
+    text-align: center;
+    font-size: 50px;
+    font-family: b titr;
+}
+#Moarefisite{
+    font-size: 25px;
+    font-family: b jadid;
+}
+#Entekhab{font-size: 35px;
+    font-family: b elham;
+    display: inline;
+}
+img{
+    display: inline;
+}

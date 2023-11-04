@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #submenu{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="smenu()">menu</button>
+    <div id="submenu">
+        <ul>
+            <li>aaa</li>
+            <li>aaa</li>
+            <li>aaa</li>
+        </ul>
+    </div>
+    <script>
+        var flagmenu=false;
+        function smenu(){
+            var menu=document.getElementById("submenu");
+            if(flagmenu==false){
+                menu.style="display:block";
+                flagmenu=true;
+            }
+            else{
+                menu.style="display:none;";
+                flagmenu=false;
+            }
+        }
+    </script>
+</body>
+</html>
