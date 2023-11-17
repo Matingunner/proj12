@@ -5,6 +5,8 @@ body{
 		height: 300px;
 		background-size: cover;
 		background-repeat: no-repeat;
+        background-attachment: fixed;
+        overflow:x hidden;
     
 }
 header{
@@ -41,11 +43,14 @@ header{
 }
 #vasat{
     display: block;
-    height: 142px;
+    height: 47%;
 }
 #navar>ul{
     text-align: center;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
 #navar>ul>li{
     display: inline-block;
     text-align: center;
