@@ -12,3 +12,12 @@ header{
     font-size: 30px;
     font-family: b jadid;
 }
+#yas{
+    display: inline;
+}
+#back{
+    font-size: 45px;
+    font-family: b titr;
+    margin-top: 20px;
+    color: #008b2e;
+}
