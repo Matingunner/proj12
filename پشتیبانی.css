@@ -19,3 +19,10 @@ header{
     font-size: 35px;
     font-family: b jadid;
 }
+#back{
+    font-size: 45px;
+    font-family: b titr;
+    margin-top: 20px;
+    color: #21c840;
+    text-decoration: none;
+}
