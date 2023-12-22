@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to right, #188ed7, #d622c7);
+}
+header{
+    font-size: 45px;
+    font-family: b titr;
+    margin-top: 20px;
+}
+.titr{
+    font-size: 30px;
+    font-family: b titr;
+}
