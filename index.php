@@ -24,12 +24,12 @@
     <div id="asli">
         <div id="asli2">
             <ul>
-                <a href="سنتی.html"><li>سنتی</li></a>
-                <a href="پاپ.html"><li>پاپ</li></a>
-                <a href="رپ.html"><li>رپ</li></a>
-                <a href="راک.html"><li>راک</li></a>
-                <a href="آهنگ.html"><li>آهنگ عروسی</li></a>
-                <a href="آهنگ.html"><li>آهنگ بی کلام</li></a>
+                <a href="سنتی.php"><li>سنتی</li></a>
+                <a href="پاپ.php"><li>پاپ</li></a>
+                <a href="رپ.php"><li>رپ</li></a>
+                <a href="راک.php"><li>راک</li></a>
+                <a href="آهنگ.php"><li>آهنگ عروسی</li></a>
+                <a href="آهنگ.php"><li>آهنگ بی کلام</li></a>
             </ul>
         </div>
        
@@ -37,10 +37,12 @@
     <div id="vasat"></div>
     <div id="navar">
         <ul>
-            <li><a href="درباره ما.html">درباره ما</a></li>
-            <li><a href="پشتیبانی.html">پشتیبانی</a></li>
-            <li><a href="تماس با ما.html">تماس با ما</a></li>
-            <li><a href="نشانی.html">نشانی</a></li>
+            <li><a href="درباره ما.php">درباره ما</a></li>
+            <li><a href="پشتیبانی.php">پشتیبانی</a></li>
+            <li><a href="تماس با ما.php">تماس با ما</a></li>
+            <li><a href="نشانی.php">نشانی</a></li>
+            <li><a href="login.php">ورود</a></li>
+            <li><a href="register.php">ثبت نام</a></li>
         </ul>
     </div>
 </body>
