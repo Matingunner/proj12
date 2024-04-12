@@ -60,7 +60,7 @@ $email = $_POST['email'];
   exit ("خطای با شرح زیر رخ داده است".mysqli_connect_error());
 $query = "INSERT INTO `music`(`realname`, `username`, `password`, `email`, `type`) VALUES ('$realname','$username','$password','$email','0')";
 if (mysqli_query($link,$query)===true)
-echo ("<p style='color:green;'><b>".$realname." گرامی عضویت شما با نام کاربری ".$username." در فروشگاه با موفقیت انجام شد"."</b></p>");
+echo ("<p style='color:green;'><b>".$realname." گرامی عضویت شما با نام کاربری ".$username." در سایت با موفقیت انجام شد"."</b></p>");
 else
   echo("<p style='color:red;'<b>عضویت شما در فروشگاه انجام نشد</b></p>");
 mysqli_close($link);

@@ -43,6 +43,7 @@
             <li><a href="نشانی.php">نشانی</a></li>
             <li><a href="login.php">ورود</a></li>
             <li><a href="register.php">ثبت نام</a></li>
+            <li><a href="pishnahad.php">پیشنهاد ها</a></li>
         </ul>
     </div>
 </body>

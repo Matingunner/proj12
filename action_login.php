@@ -56,7 +56,7 @@ $query = "SELECT * FROM `music` WHERE  username = '$username' AND password = '$p
 $result = mysqli_query($link,$query);
 $row = mysqli_fetch_array($result);
 if ($row)
-    echo ("<p style='color:green;'><b>{$row['realname']}به فروشگاه ایرانیان خوش آمدید</b></p>"); 
+    echo ("<p style='color:green;'><b>{$row['realname']}به سایت ایران موزیک خوش آمدید</b></p>"); 
 else
     echo ("<p style='color:green;'><b>نام کاربری یا کلمه عبور یافت نشد</b></p>"); 
 
